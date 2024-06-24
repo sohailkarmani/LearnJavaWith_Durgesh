@@ -1,7 +1,8 @@
+//Write a program to left rotate the elements of an array
 import java.util.Scanner;
 public class LeftShift {
     public static void main(String[] args) {
-        System.out.println("Enter array of Array : ");
+        System.out.println("Enter size of Array : ");
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         // creating array

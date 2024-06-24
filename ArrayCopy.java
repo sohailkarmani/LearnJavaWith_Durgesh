@@ -1,5 +1,5 @@
+// 1.Write a program to copy all elements of one array into another array
 import java.util.*;
-
 public class ArrayCopy {
     public static void main(String[] args) {
         System.out.print("Enter size of array : ");
