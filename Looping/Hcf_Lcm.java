@@ -3,6 +3,10 @@ package Looping;
 import java.util.Scanner;
 
 public class Hcf_Lcm {
+    static int findLcm(int num1,int num2){
+        int lcm=(num1*num2)/findHcf(num1, num2);
+        return lcm;
+    }
     static int findHcf(int num1, int num2) {
         int small, large;
         if (num1 < num2) {
@@ -31,6 +35,8 @@ public class Hcf_Lcm {
 
         int hcf = findHcf(num1, num2);
         System.out.println("HCF = " + hcf);
+        int lcm=findLcm(num1, num2);
+        System.out.println("LCM = "+lcm);
 
     }
 
