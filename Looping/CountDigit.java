@@ -19,6 +19,7 @@ public class CountDigit {
         System.out.print("Enter a number :");
         int n=sc.nextInt();
         countDigit(n);
+        sc.close();
 
         
         

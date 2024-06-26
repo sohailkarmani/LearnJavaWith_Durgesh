@@ -37,6 +37,7 @@ public class Hcf_Lcm {
         System.out.println("HCF = " + hcf);
         int lcm=findLcm(num1, num2);
         System.out.println("LCM = "+lcm);
+        sc.close();
 
     }
 

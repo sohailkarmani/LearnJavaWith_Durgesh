@@ -23,7 +23,7 @@ public class Input2DArray {
             }
             System.out.println();
         }
-          
+          sc.close();
         
     }
 }

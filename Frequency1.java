@@ -1,8 +1,8 @@
+//.Write a program to find the frequency of each element in the array
 import java.util.Scanner;
-
 public class Frequency1 {
     public static void main(String[] args) {
-        System.out.println("Enter size of array : ");
+        System.out.print("Enter size of array : ");
         Scanner sc=new Scanner(System.in);
         int size=sc.nextInt();
         // creating array
@@ -29,5 +29,6 @@ public class Frequency1 {
             }
 
         }
+        sc.close();
     }
 }

@@ -56,6 +56,7 @@ public class AddMatrix {
             }
             System.out.println();
         }
+        sc.close();
 
     }
 }

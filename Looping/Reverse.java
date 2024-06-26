@@ -20,7 +20,7 @@ public class Reverse {
         System.out.print("Enter a number :");
         int num=sc.nextInt();
         reverse(num);
-        
+        sc.close();
         
     }
 }
