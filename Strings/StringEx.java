@@ -10,6 +10,11 @@ public class StringEx {
         System.out.println(str1);
         // creating blank string
         String srt=new String();
+        System.out.println(srt);
+
+        char ch[]={'s','t','r','i','n','g','s'};    
+        String s2=new String(ch);//converting char array to string   
+        System.out.println(s2); 
         
     }
 }
