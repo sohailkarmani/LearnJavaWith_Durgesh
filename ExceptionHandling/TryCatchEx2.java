@@ -12,6 +12,7 @@ public class TryCatchEx2 {
         int data;
         try {
              data=n1/n2;
+             System.out.println(data);
         } catch (Exception e) {
             System.out.println("Zero can not divide by any number ");
         }

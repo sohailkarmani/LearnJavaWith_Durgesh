@@ -7,6 +7,7 @@ public class NestedTryBlock {
             // inner try block 1
             try {
                 int b=39/0;
+                System.out.println(b);
                 
             } 
             //catch block of inner try block
