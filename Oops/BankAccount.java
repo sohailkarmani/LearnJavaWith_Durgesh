@@ -65,7 +65,7 @@ public class BankAccount {
         savings.applyInterest(); // Apply interest
         System.out.println("Savings account balance: " + savings.checkBalance()); // Check balance
         
-        
+        sc.close();
     }
 
 }

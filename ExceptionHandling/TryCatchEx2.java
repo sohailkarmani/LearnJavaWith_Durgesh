@@ -9,8 +9,9 @@ public class TryCatchEx2 {
         int n1=sc.nextInt();
         System.out.print("Ente second number :");
         int n2=sc.nextInt();
+        int data;
         try {
-            int data=n1/n2;
+             data=n1/n2;
         } catch (Exception e) {
             System.out.println("Zero can not divide by any number ");
         }
