@@ -6,12 +6,14 @@ import java.awt.Font;
 import java.awt.GridLayout;
 
 import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
+import javax.swing.SwingConstants;
 
 public class LoginWithClock extends JFrame {
     private JLabel titleHeading, userNameLabel, passwordLabel;
@@ -54,7 +56,10 @@ public class LoginWithClock extends JFrame {
         // this -- north
 
         // title size --bold centre
+        titleHeading.setIcon(new ImageIcon("D:\\Java Basic\\GUI\\log-in.png"));
         titleHeading.setFont(headingFont);
+        titleHeading.setHorizontalTextPosition(SwingConstants.CENTER);
+        titleHeading.setVerticalTextPosition(SwingConstants.BOTTOM);
         // setting the text position
         // titleHeading.setHorizontalTextPosition(SwingConstants.CENTER);
         titleHeading.setHorizontalAlignment(JLabel.CENTER);
