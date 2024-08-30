@@ -1,7 +1,6 @@
 package GUI;
 
 import java.awt.BorderLayout;
-
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -62,6 +61,16 @@ public class LoginWithClock extends JFrame {
         titleHeading.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         // this --- centre
+        // TitledBorder titledBorder=BorderFactory.createTitledBorder("Fill Details
+        // Correctly");
+        // titledBorder.setTitlePosition(TitledBorder.CENTER);
+        // centrPanel.setBorder(titledBorder);
+        // centrPanel.setBorder(BorderFactory.createDashedBorder(Color.RED,5,10));
+
+        centrPanel.setBorder(BorderFactory.createCompoundBorder(
+                BorderFactory.createEmptyBorder(20, 20, 20, 20),
+                BorderFactory.createTitledBorder("Fill Form")));
+
         centrPanel.setLayout(new GridLayout(3, 2));
         userNameLabel.setFont(textFont);
         userName.setFont(textFont);
