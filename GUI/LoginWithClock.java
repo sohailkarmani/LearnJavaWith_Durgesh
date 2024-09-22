@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
+import java.awt.event.ActionListener;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -30,6 +31,10 @@ public class LoginWithClock extends JFrame {
         setSize(500, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         createComponents();
+        // iam sure login button apki create ho chuki hai
+        // button ko listener ke sath add krne se pehle listener banana pdega
+        MyButtonEvent myButtonEvent=new MyButtonEvent();
+        LoginButton.addActionListener((ActionListener) myButtonEvent);
         setLocationRelativeTo(null);
         pack();
         setVisible(true);
